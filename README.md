@@ -6,7 +6,8 @@
 You can also visit this website to obtain prediction results directly: http://fdblab.csie.ncu.edu.tw/kmalo/home.html
 
 *Python version 3.7 was used.
-*You can import these project into Pycharm to excute.
+
+*You can import these files into Pycharm to excute.
 
 ===================================
 
@@ -32,8 +33,15 @@ subprocess
 
 ===================================
 
-1.  Use "make_feature_mammals" or "make_feature_wheat" to extract the features.
+1. Open the "main.py" file.
 
-2.  use "model_prediction_mammals"
+2. Input the type of the species.
+
+3. Input the FASTA file name.
+
+4.  Confirm the output directory.
+
+5.  Finally, you can find "prediction_results.csv" under the "out_path".
+
 
 
