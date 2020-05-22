@@ -46,6 +46,6 @@ def run_model(cutoff , out_path):
 	final_df["Score"] = score
 	final_df = final_df[final_df["Score"]>cutoff]
 	final_df["Score"] = np.round(final_df["Score"],3)
-	final_df.to_csv(out_path + "\\" + out_path.split("\\")[-1] + ".csv", index=False)
+	final_df.to_csv(out_path + "\\prediction_results.csv", index=False)
 
 
